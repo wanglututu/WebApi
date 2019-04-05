@@ -1,5 +1,4 @@
 # 微信mac/ipad协议，webapi免IIS部署版本。
- 请进入  http://www.wechattools.com/ 进行注册授权<br/><br/>
 1.找到mac/ipad目录<br/><br/>
 2.打开WeChatServer.exe.config<br/><br/>
 3.配置授权信息，api端口，和websocket端口，接收消息回调接口地址，管理员密码等参数<br/><br/>
@@ -7,7 +6,6 @@
     <add key="AuthKey" value="" />
     <add key="WebApiHost" value="22221" />
     <add key="WebSocketHost" value="22222" />
-    <add key="MsgCallBackUrl" value="" />
     <add key="AdminPassword" value="123456" />
 ```
 <br/><br/>
@@ -22,4 +20,3 @@
 
 demo源码暂时不放github了。如需要研究源码学习，请加入我的知识星球。<br/>
 demo源码使用c#进行开发，开发环境为VS2017 .net framework 4.6.1<br/>
-![](https://github.com/changtuiqie/WeChatAgreement.WebApi.Simple/blob/master/zsxq.jpg) <br/>
